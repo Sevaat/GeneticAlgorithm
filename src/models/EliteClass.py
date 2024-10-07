@@ -1,4 +1,4 @@
-from GAParametersClass import GAParameters
+from .GAParametersClass import GAParameters
 
 class Elite():
     

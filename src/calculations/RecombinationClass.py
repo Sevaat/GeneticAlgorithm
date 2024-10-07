@@ -1,5 +1,5 @@
 import random
-from IndividualClass import Individual
+from src.models.IndividualClass import Individual
 
 
 class Recombination():

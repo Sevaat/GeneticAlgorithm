@@ -1,15 +1,18 @@
 import unittest
-from GAParametersClass import GAParameters
-from IndividualClass import Individual
 import random
-from TargetFunctionClass import TargetFunction
-from PopulationClass import Population
-from GrayCodeConverterClass import GrayCodeConverter
-from EliteClass import Elite
-from SelectionClass import Selection
-from RecombinationClass import Recombination
-from MutationClass import Mutation
-from GeneticAlgorithmClass import GeneticAlgorithm
+
+from src.models.GAParametersClass import GAParameters
+
+
+from src.models.IndividualClass import Individual
+from src.calculations.TargetFunctionClass import TargetFunction
+from src.models.PopulationClass import Population
+from src.utils.GrayCodeConverterClass import GrayCodeConverter
+from src.models.EliteClass import Elite
+from src.calculations.SelectionClass import Selection
+from src.calculations.RecombinationClass import Recombination
+from src.calculations.MutationClass import Mutation
+from src.GeneticAlgorithmClass import GeneticAlgorithm
 
 
 class Test():

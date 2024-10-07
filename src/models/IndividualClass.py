@@ -1,6 +1,6 @@
-from GAParametersClass import GAParameters
+from .GAParametersClass import GAParameters
 import random
-from GrayCodeConverterClass import GrayCodeConverter
+from src.utils.GrayCodeConverterClass import GrayCodeConverter
 
 
 class Individual():

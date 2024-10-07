@@ -1,6 +1,6 @@
-from GAParametersClass import GAParameters
-from IndividualClass import Individual
-from EliteClass import Elite
+from .GAParametersClass import GAParameters
+from .IndividualClass import Individual
+from .EliteClass import Elite
 
 
 class Population():

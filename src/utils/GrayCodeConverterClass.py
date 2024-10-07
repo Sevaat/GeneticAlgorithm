@@ -1,4 +1,4 @@
-from GAParametersClass import GAParameters
+from src.models.GAParametersClass import GAParameters
 
 
 class GrayCodeConverter():

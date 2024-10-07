@@ -1,5 +1,5 @@
-from TestClass import Test
-from GeneticAlgorithmClass import GeneticAlgorithm
+from test.TestClass import Test
+from src.GeneticAlgorithmClass import GeneticAlgorithm
 
 
 def main():

@@ -57,6 +57,6 @@ class GAParameters():
     
     
 if __name__ == "__main__":
-    from TestClass import Test
+    from test.TestClass import Test
     ga_parameters = Test.get_ga_parameters()
     print(ga_parameters)

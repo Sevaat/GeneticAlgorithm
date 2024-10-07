@@ -1,10 +1,10 @@
-from GAParametersClass import GAParameters
-from PopulationClass import Population
-from TargetFunctionClass import TargetFunction
-from SelectionClass import Selection
-from RecombinationClass import Recombination
-from IndividualClass import Individual
-from MutationClass import Mutation
+from .models.GAParametersClass import GAParameters
+from .models.PopulationClass import Population
+from .calculations.TargetFunctionClass import TargetFunction
+from .calculations.SelectionClass import Selection
+from .calculations.RecombinationClass import Recombination
+from .models.IndividualClass import Individual
+from .calculations.MutationClass import Mutation
 
 
 class GeneticAlgorithm():
