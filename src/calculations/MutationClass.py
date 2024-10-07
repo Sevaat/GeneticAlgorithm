@@ -1,7 +1,7 @@
-from IndividualClass import Individual
+from src.models.IndividualClass import Individual
 import random
-from GAParametersClass import GAParameters
-from GrayCodeConverterClass import GrayCodeConverter
+from src.models.GAParametersClass import GAParameters
+from src.utils.GrayCodeConverterClass import GrayCodeConverter
 
 
 class Mutation():
