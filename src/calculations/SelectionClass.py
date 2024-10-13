@@ -1,7 +1,7 @@
 import random
-from PopulationClass import Population
-from GAParametersClass import GAParameters
-from IndividualClass import Individual
+from src.models.PopulationClass import Population
+from src.models.GAParametersClass import GAParameters
+from src.models.IndividualClass import Individual
 
 
 class Selection():

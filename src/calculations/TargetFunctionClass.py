@@ -1,5 +1,5 @@
-from IndividualClass import Individual
-from GAParametersClass import GAParameters
+from src.models.IndividualClass import Individual
+from src.models.GAParametersClass import GAParameters
 
 
 class TargetFunction():
